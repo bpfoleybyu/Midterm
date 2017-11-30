@@ -1,0 +1,91 @@
+body {
+  padding: 40px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #eecda3;
+}
+
+body
+{
+background: #4CA1AF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+ text-align:center;
+ content:center;
+ font-size:xx-large;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p{
+  content:center;
+  text-align:center;
+  font-size:large;
+  font-style:bold;
+}
+
+input[type=text], select {
+    width: 100%;
+    content: center;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 33%;
+    background-color: #ff6a00;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2196f3;
+}
+
+.formId {
+    border-radius: 5px;
+    background-color: #50d07d;
+    padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+}
+
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+}
+
+li a:hover {
+  font-size: 30px;
+  background: #67b26f;
+}
+
+

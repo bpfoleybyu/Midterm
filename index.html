@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="javascripts/comments.js"></script>
+<link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+</head>
+
+<body>
+<h1>Store Management Interface</h1>
+
+<div id="formId">
+<form id="commentForm" action="">
+<label for="name">Name of Item: </label><input type="text" id="name" placeholder="Item"><br>
+<label for="comment">Price: </label><input type="text" id="comment" placeholder="Price"><br>
+<label for="picture">Picture URL: </label><input type="text" id="picture" placeholder="URL"><br>
+</form>
+</div>
+
+<button id="postComment">Add Product</button>
+<button id="getComments">View List of Products</button>
+<button id="deleteComments">Delete All</button>
+<div id="comments"></div>
+</body>
+</html>
+
